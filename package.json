@@ -1,0 +1,49 @@
+{
+  "name": "react-native-scaleit",
+  "version": "1.0.0",
+  "description": "A zero-dependency responsive scaling hook for React Native and Expo. Built-in support for tablets, TVs, and any screen size.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Ali Mardini",
+  "license": "MIT",
+  "keywords": [
+    "react-native",
+    "responsive",
+    "scaling",
+    "expo",
+    "hooks",
+    "dimensions",
+    "typescript",
+    "tv",
+    "tablet",
+    "font-scaling",
+    "device-aware",
+    "design-system"
+  ],
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-native": ">=0.70.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/react": "^18.2.52",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.0",
+    "typescript": "^5.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ali-Mardini/react-native-scaleit"
+  },
+  "bugs": {
+    "url": "https://github.com/Ali-Mardini/react-native-scaleit/issues"
+  },
+  "homepage": "https://github.com/Ali-Mardini/react-native-scaleit#readme"
+}
